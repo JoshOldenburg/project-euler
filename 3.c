@@ -35,10 +35,10 @@ int isprime(uint64_t num) {
 	else if (num % 2 == 0 || num % 3 == 0) return 0;
 
 	// 1: don't bother with sqrt; 0: only compare up to sqrt
-	// 1 is far, far faster
+	// 0 is far, far faster
 	uint64_t numsqrt = 1 ? num : ceil(sqrt(num));
 
-	for (uint64_t i = 4; i < numsqrt; i++) {
+	for (uint64_t i = 4; i <= numsqrt; i++) {
 		if (num % i == 0) return 0;
 	}
 
