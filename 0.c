@@ -1,5 +1,5 @@
 /*
- * Project Euler #0 by Josh Oldenburg, 12/1/2014
+ * Project Euler #0 by Josh Oldenburg
  *
  */
 

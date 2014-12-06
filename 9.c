@@ -1,5 +1,5 @@
 /*
- * Project Euler #9 by Josh Oldenburg, 12/1/2014
+ * Project Euler #9 by Josh Oldenburg, 12/2/2014
  *
  * A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
  *
